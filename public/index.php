@@ -10,9 +10,9 @@
 
 	// memanggil file konfigurasi library yang dibutuhkan
 	require_once (ROOT .'/config/config.php');
-	// require_once (ROOT .'/library/model.class.php');
-	// require_once (ROOT .'/library/view.class.php');
-	// require_once (ROOT .'/library/controller.class.php');
+	require_once (ROOT .'/library/model.class.php');
+	require_once (ROOT .'/library/view.class.php');
+	require_once (ROOT .'/library/controller.class.php');
 
 	// membuat function autoload
 	function __autoload($className)
